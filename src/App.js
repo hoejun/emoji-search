@@ -14,7 +14,6 @@ export default class App extends PureComponent {
   }
 
   handleSearchChange = event => {
-    console.log('!!!');
     this.setState({
       filteredEmoji: filterEmoji(event.target.value, 20)
     });

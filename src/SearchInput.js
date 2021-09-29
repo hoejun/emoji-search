@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 import "./SearchInput.css";
 
 export default class SearchInput extends PureComponent {
+  //props타입 조회, func 함수인지
   static propTypes = {
     textChange: PropTypes.func
   };

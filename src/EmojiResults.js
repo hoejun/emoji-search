@@ -21,6 +21,7 @@ export default class EmojiResults extends PureComponent {
   render() {
     return (
       <div className="component-emoji-results">
+        {console.log(this.props.emojiData)}
         {this.props.emojiData.map(emojiData => (
           <EmojiResultRow
             key={emojiData.title}
